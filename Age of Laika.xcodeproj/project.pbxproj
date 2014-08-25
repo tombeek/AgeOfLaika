@@ -21,6 +21,7 @@
 		CC1E1A2917FD450900256E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1E1A0B17FD450900256E45 /* UIKit.framework */; };
 		CC1E1A3117FD450900256E45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1E1A2F17FD450900256E45 /* InfoPlist.strings */; };
 		CC1E1A3317FD450900256E45 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1E1A3217FD450900256E45 /* Age_of_LaikaTests.m */; };
+		CC73394A17FDE67D0096C8AE /* LaikaSpaceDog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC73394917FDE67D0096C8AE /* LaikaSpaceDog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CC1E1A2E17FD450900256E45 /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		CC1E1A3017FD450900256E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC1E1A3217FD450900256E45 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		CC73394917FDE67D0096C8AE /* LaikaSpaceDog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaikaSpaceDog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		CC1E1A0E17FD450900256E45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC73394917FDE67D0096C8AE /* LaikaSpaceDog.jpg */,
 				CC1E1A0F17FD450900256E45 /* Age of Laika-Info.plist */,
 				CC1E1A1017FD450900256E45 /* InfoPlist.strings */,
 				CC1E1A1317FD450900256E45 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC73394A17FDE67D0096C8AE /* LaikaSpaceDog.jpg in Resources */,
 				CC1E1A2017FD450900256E45 /* Images.xcassets in Resources */,
 				CC1E1A1217FD450900256E45 /* InfoPlist.strings in Resources */,
 				CC1E1A1B17FD450900256E45 /* Main.storyboard in Resources */,
@@ -461,6 +465,7 @@
 				CC1E1A3817FD450900256E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC1E1A3917FD450900256E45 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				CC1E1A3B17FD450900256E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

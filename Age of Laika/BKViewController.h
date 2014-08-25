@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface BKViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *textLabel;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+- (IBAction)runCalculation:(UIButton *)sender;
 
 @end
